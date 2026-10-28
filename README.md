@@ -1,4 +1,4 @@
-# Minority-Class Weighted Classifier
+# ALINJob
 
 **데이터가 적은 클래스에 학습 가중치를 더 주고, 집단별 예측 성능 차이를 함께 확인하는 ALINJob 기반 분류 코드입니다.**
 
