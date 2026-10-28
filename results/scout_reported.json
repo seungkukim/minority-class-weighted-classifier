@@ -1,0 +1,60 @@
+{
+  "kind": "historically_reported_not_rerun",
+  "task": "SCOUT five-class final-education classification",
+  "data": {
+    "n_rows": 9991,
+    "n_original_columns": 59,
+    "protected_group": "school name contains 여자",
+    "protected_positive_count": 7,
+    "positive_label": "고졸"
+  },
+  "protocol": "pooled five-fold out-of-fold predictions; seed=42",
+  "results": [
+    {
+      "stage": "earlier_presentation_draft",
+      "accuracy": 0.853,
+      "absolute_deo": 0.0408,
+      "accuracy_gap_pp": 0.79,
+      "source": "작성내용_진도점검발표자료.md; 발표슬라이드_채용2_2장.md"
+    },
+    {
+      "stage": "latest_reported_operating_point",
+      "minority_floor": 250,
+      "num_leaves": 63,
+      "accuracy": 0.8598,
+      "absolute_deo": 0.0136,
+      "accuracy_gap_pp": 0.06,
+      "high_school_recall_approx": 0.129,
+      "source": "SOTA_REFERENCES.md; 작성내용_대표성과_서술형_채용2.md"
+    }
+  ],
+  "baselines_reported": [
+    {
+      "method": "unweighted tuned backbone",
+      "accuracy": 0.8604
+    },
+    {
+      "method": "majority class prediction",
+      "accuracy": 0.8578
+    },
+    {
+      "method": "TabPFN v2",
+      "accuracy": 0.8596,
+      "absolute_deo": 0.0612
+    },
+    {
+      "method": "default LightGBM",
+      "accuracy": 0.8557,
+      "absolute_deo": 0.0884
+    },
+    {
+      "method": "FairGBM (high-school-head equal-opportunity constraint)",
+      "accuracy_approx": 0.851,
+      "absolute_deo_approx_range": [
+        0.02,
+        0.04
+      ],
+      "note": "Run-dependent; rounded range from the local reference summary."
+    }
+  ]
+}

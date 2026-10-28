@@ -1,0 +1,12 @@
+{
+  "train_edu_gbm.py": {
+    "sha256": "7778aed378cd2689e2e2874d1dbba9695450af5a8d03b5996f9bf29394575b20",
+    "source_project": "https://github.com/jiwoohong93/ai_dep",
+    "source_path": "recruitment/recruitment_2/train_edu_gbm.py"
+  },
+  "test_edu_gbm.py": {
+    "sha256": "6eb5ae3cc2921bd3eb7693a46901e8126c40fc926799eadebb46dbac8aa1e9ea",
+    "source_project": "https://github.com/jiwoohong93/ai_dep",
+    "source_path": "recruitment/recruitment_2/test_edu_gbm.py"
+  }
+}
